@@ -1,0 +1,403 @@
+
+[   
+    {
+        "titel": "Wegen naar menselijkheid",
+        "cover": "https://media.s-bol.com/998W66G1KnLY/550x641.jpg",
+        "auteurs": [
+            {
+                "voornaam": "Eugen",
+                "achternaam": "Drewermann"
+            }
+        ],
+        "uitgave": "2020-10",
+        "paginas": 1400,
+        "taal": "Nederlands",
+        "ean": 9789492183989,
+        "prijs": 69.50
+     },
+     {
+        "titel": "ik je zie",
+        "voortitel":"Nu",
+        "auteurs": [
+            {
+                "voornaam":"Merlijn",
+                "achternaam":"Kamerling"
+            }
+        ],
+        "uitgave": "2020-10",
+        "paginas": "288",
+        "taal":"Nederlands",
+        "ean":"9789022582343",
+        "cover":"https://media.s-bol.com/wmvlpRgj61VJ/547x840.jpg",
+        "prijs": 20
+     },
+     {
+        "titel": "Antwerpen",
+        "cover": "https://media.s-bol.com/7lyMwq1Oo8y/550x825.jpg",
+        "voortitel" : "Time to momo -",
+        "auteurs": [
+            {
+                "voornaam": "Marie",
+                "achternaam": "Monsieur"
+            },
+            {
+                "voornaam": "Femke",
+                "achternaam": "Dam"
+            },
+            {
+                "voornaam": "Liesbeth",
+                "achternaam": "Pieters"
+            },
+            {
+                "voornaam": "Nina",
+                "achternaam": "Swaep"
+            },
+            {
+                "voornaam": "Sanne",
+                "achternaam": "Tummers"
+            }
+        ],
+        "uitgave": "2017-8",
+        "paginas": 149,
+        "taal": "Nederlands",
+        "ean": 9789057678257,
+        "prijs": 13.99
+     },
+    {
+       "titel": "Summerproof met Sonja",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/7/3/5/9200000110145370.jpg",
+       "auteurs": [{
+           "voornaam": "Sonja",
+           "achternaam": "Bakker"
+       }],
+       "uitgave": "2019-05",
+       "paginas": 104,
+       "taal": "Nederlands",
+       "ean": 9789078211433,
+       "prijs": 15.95
+    },
+    {
+       "titel": "Front-End Web Development a Complete Guide",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/7/3/1/7/9200000096507137.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Gerardus",
+               "achternaam" : "Blokdyk"
+           }
+       ],
+       "uitgave": "2018-07",
+       "ean": 9780655315254,
+       "paginas": 274,
+       "taal": "Engels",
+       "prijs": 72.99
+    },
+    {
+       "titel": "Delft design guide",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/8/6/6/6/9200000014636668.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Yvo", 
+               "achternaam": "Zijlstra"
+           },
+           {
+               "voornaam":  "Jaap", 
+               "achternaam": "Daalhuizen"
+           },
+           {
+               "voornaam": "Roos", 
+               "tussenvoegsel": "van der", 
+               "achternaam": "Schoor"
+           },
+           {
+               "voornaam": "Annemiek",
+               "tussenvoegsel": "van",
+               "achternaam": "Boeijen"
+           }
+       ],
+       "uitgave": "2013-09",
+       "ean": 9789063693275,
+       "paginas": 176,
+       "taal": "Engels",
+       "prijs": 24.49
+    },
+    {
+       "titel": "Huis vol leugens",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/6/4/9/0/9200000107050946.jpg",
+       "auteurs": [{
+           "voornaam": "Nicci",
+           "achternaam": "French"
+       }],
+       "uitgave": "2019-07",
+       "ean": 9789026343315,
+       "paginas": 400,
+       "taal": "Nederlands",
+       "prijs": 21.99
+    },
+    {
+       "titel": "Front-End Web Development",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/4/1/7/9200000050597144.jpg",
+       "auteurs": [{
+           "voornaam": "Chris",
+           "achternaam": "Aquino"
+       },
+       {
+           "voornaam": "Todd",
+           "achternaam": "Gandee"
+       }
+    ],
+       "uitgave": "2016-06",
+       "paginas": 300,
+       "taal": "Engels",
+       "ean": 9780134433943,
+       "prijs": 37.99
+    },
+    {
+       "titel": "Dog Man",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/6/7/3/5/9200000091585376.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Dav",
+               "achternaam": "Pilkey"
+           }
+       ],
+       "uitgave": "2018-06",
+       "paginas": 231,
+       "taal": "Nederlands",
+       "ean": 9789492899019,
+       "prijs": 14.99
+    },
+    {
+       "titel": "Learning Bootstrap 4",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/6/0/4/9/9200000060229406.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Matt",
+               "achternaam": "Lambert"
+           }
+       ],
+       "uitgave": "2016-01",
+       "paginas": 246,
+       "taal": "Engels",
+       "ean": 9781785881008,
+       "prijs": 40.99
+    },
+    {
+       "titel": "VEG",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/9/3/1/8/9200000107638139.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Jamie",
+               "achternaam": "Oliver"
+           }
+       ],
+       "uitgave": "2019-08",
+       "paginas": 312,
+       "taal": "Nederlands",
+       "ean": 9789021573397,
+       "prijs": 29.99
+    },
+    {
+       "titel": "Zij die moet sterven",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/0/6/9/9200000107459600.jpg",
+       "auteurs": [
+           {
+               "voornaam": "David",
+               "achternaam": "Lagercrantz"
+           }
+       ],
+       "uitgave": "2019-08",
+       "paginas": 304,
+       "taal": "Nederlands",
+       "ean": 9789056725723,
+       "prijs": 22.99
+    },
+    {
+       "titel": "Geschiedenis van Nederland in 100 oude kaarten",
+       "voortitel": "De",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/5/3/8/9200000103398351.jpg",
+       "auteurs": [{
+           "voornaam": "Marieke",
+           "tussenvoegsel": "van",
+           "achternaam": "Delft"
+       }],
+       "uitgave": "2019-06",
+       "paginas": 400,
+       "taal": "Nederlands",
+       "ean": 9789401459075,
+       "prijs": 79.00
+    },
+    {
+       "titel": "Wees onzichtbaar",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/3/4/1/2/9200000071452143.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Murat",
+               "achternaam": "Isik"
+           }
+       ],
+       "uitgave": "2019-05",
+       "paginas": 597,
+       "taal": "Nederlands",
+          "ean": 9789041422903,
+       "prijs": 24.99
+    },
+    {
+       "titel": "Houden van dingen die niet perfect zijn",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/1/2/7/0/9200000095410721.jpg",
+       "auteurs": [{
+           "voornaam": "Haemin",
+           "achternaam": "Sunim"
+       }],
+       "uitgave": "2019-01",
+       "paginas": 272,
+       "taal": "Nederlands",
+       "ean": 9789022583722,
+       "prijs": 15.99
+    },
+    {
+       "titel": "Zeven Zussen",
+       "voortitel": "De",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/5/3/4/9200000089454350.jpg",
+       "auteurs": [{
+           "voornaam": "Lucinda",
+           "achternaam": "Riley"
+       }],
+       "uitgave": "2018-06",
+       "paginas": 592,
+       "taal": "Nederlands",
+       "ean": 9789401609371,
+       "prijs": 12.99
+    },
+    {
+       "titel": "Hands-On Full-Stack Web Development with ASP.NET Core",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/9/1/9/1/9200000101541919.jpg",
+       "auteurs": [
+           {
+           "voornaam": "Tamir",
+           "achternaam": "Dresher"
+           },
+           {
+               "voornaam": "Amir",
+               "achternaam": "Zuker"
+           },
+           {
+               "voornaam": "Shay",
+               "achternaam": "Friedman"
+           }
+        ],
+       "uitgave": "2018-10",
+       "paginas": 478,
+       "taal": "Engels",
+       "ean": 9781788622882,
+       "prijs": 44.95
+    },
+    {
+       "titel": "dag van de doden",
+       "voortitel": "De",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/3/6/9/6/9200000084586963.jpg",
+       "auteurs": [{
+        "voornaam": "Nicci",
+        "achternaam": "French"
+    }],
+       "uitgave": "2018-4",
+       "paginas": 365,
+       "taal": "Nederlands",
+       "ean": 9789026339592,
+       "prijs": 20.99
+    },
+    {
+       "titel": "Adembenemende natuurbeleving van Licht",
+       "voortitel": "De",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/7/6/0/9/9200000095129067.jpg",
+       "auteurs": [
+           {
+               "voornaam":"Jolanda",
+               "achternaam": "Linschooten"
+           }
+       ],
+       "uitgave": "2018-11",
+       "paginas": 256,
+       "taal": "Nederlands",
+       "ean": 9789024582747,
+       "prijs": 29.99
+    },
+    {
+       "titel": "schaduwspel",
+       "voortitel": "Het",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/7/7/9/9200000107219770.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Simone",
+               "tussenvoegsel": "van der",
+               "achternaam": "Vlugt"
+           }
+       ],
+       "uitgave": "2019-5",
+       "paginas": 352,
+       "taal": "Nederlands",
+       "ean": 9789026348198,
+       "prijs": 12.99
+    },
+    {
+       "titel": "Kunstformen der Natur",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/6/5/0/4/1001004008714056.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Ernst",
+               "achternaam": "Haeckel"
+           }
+       ],
+       "uitgave": "2004-9",
+       "paginas": 279,
+       "taal": "Duits",
+       "ean": 9783937715179,
+       "prijs": 39.99
+    },
+    {
+       "titel": "Me: elton john",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/0/1/4/8/9200000106738410.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Elton",
+               "achternaam": "John"
+           }
+       ],
+       "uitgave": "2019-1",
+       "paginas": 352,
+       "taal": "Engels",
+       "ean": 9781509853311,
+       "prijs": 19.99
+    },
+    {
+       "titel": "oorlog maar niemand die het ziet",
+       "voortitel": "Het is",
+       "cover": "https://s.s-bol.com/imgbase0/imagebase3/large/FC/4/5/3/3/9200000107493354.jpg",
+       "auteurs": [
+           {
+               "voornaam": "Huib",
+               "achternaam": "Modderkolk"
+           }
+       ],
+       "uitgave": "2019-9",
+       "paginas": 256,
+       "taal": "Nederlands",
+       "ean": 9789057599804,
+       "prijs": 20.50
+    },
+    {
+        "titel": "No Logo",
+        "cover": "https://media.s-bol.com/Y4PZkN2Njv0/549x840.jpg",
+        "auteurs": [
+            {
+                "voornaam": "Naomi",
+                "achternaam": "Klein"
+            }
+        ],
+        "uitgave": "2017-8",
+        "paginas": 608,
+        "taal": "Nederlands",
+        "ean": 9789044539455,
+        "prijs": 15.99
+     }
+
+ ]
