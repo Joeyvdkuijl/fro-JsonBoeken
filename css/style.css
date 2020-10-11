@@ -1,0 +1,25 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.boek{
+    padding: 1em;
+    clear: left;
+}
+.boek__cover{
+    float: left;
+    padding: 0 3rem 0 0;
+    max-width: 300px;
+}
+.boek__kopje{
+    margin-top: 0;
+    color: royalblue;
+    font-size: 2em;
+}
+.boek__paginas::after, .boek__uitgave::after, .boek__ean::after{
+    content: " | ";
+}
+
+.boek__prijs{
+    font-size: 1.5em;
+    color: royalblue;
+}
