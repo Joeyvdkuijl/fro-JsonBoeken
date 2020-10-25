@@ -23,3 +23,16 @@ body{
     font-size: 1.5em;
     color: royalblue;
 }
+.besturing__sorteren{
+    float: right;
+    text-align: center;
+}
+@media (min-width:1250px){
+    #boeken {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .boek:nth-child(4n+2), .boek:nth-child(4n+3){
+        background-color: #ccc;
+    }
+}

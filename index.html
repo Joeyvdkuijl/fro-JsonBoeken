@@ -11,6 +11,37 @@
     </head>
     <body>
         <h1>Kies uit de volgende boeken</h1>
+        <div class="besturing">
+            <label for="" class="besturing__cb-label">
+            <input type="checkbox" class="besturing__cb-taal" value="Nederlands" checked>
+            Nederlands
+        </label>
+        </div>
+        <div class="besturing">
+            <label for="" class="besturing__cb-label">
+            <input type="checkbox" class="besturing__cb-taal" value="Engels" checked>
+            Engels
+        </label>
+        </div>
+        <div class="besturing">
+            <label for="" class="besturing__cb-label">
+            <input type="checkbox" class="besturing__cb-taal" value="Duits" checked>
+            Duits
+        </label>
+        <span for="" class="besturing__sorteren">
+        <label class="besturing__select--label"> Sorteren op:
+            <select class="besturing__select">
+                <option value="titel">Titel</option>
+                <option value="auteur">Auteur</option>
+                <option value="uitgave">Publicatie datum</option>
+                <option value="paginas">aantal bladzijden</option>
+                <option value="prijs">Prijs</option>
+            </select>
+        </label>
+        <label><input type="radio" name="opaf" class="besturing__rb" checked value="1">Oplopend</label>
+        <label><input type="radio" name="opaf" class="besturing__rb" checked value="-1">aflopend</label>
+    </span>
+        </div>
         <div id="boeken"></div>
         <script src="js/boeken.js"></script>
 
