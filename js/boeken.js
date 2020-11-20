@@ -1,7 +1,7 @@
 const uitvoer = document.getElementById('boeken');
 const xhr = new XMLHttpRequest();
 const taalKeuze = document.querySelectorAll('.besturing__cb-taal');
-const taalKeuze = document.querySelector('.besturing__select');
+const selectSort = document.querySelector('.besturing__select');
 
 xhr.onreadystatechange = () => {
     if(xhr.readyState == 4 && xhr.status ==200){
@@ -16,7 +16,7 @@ xhr.send();
 const boeken = {
 
         taalFilter: ['Engels', 'Nederlands', 'Duits'],
-        es: 'auteur',
+        es: 'titel',
         oplopend: 1,
 
         filteren(gegevens) {
@@ -59,13 +59,15 @@ const boeken = {
 
             html += `<section class="boek">`;
             html += `<img class="boek__cover" src="${boek.cover}" alt="${completeTitel}">`;
+            html += `<div class="boek__info">`;
             html += `<h3 class="boek__kopje">${completeTitel}</h3>`;
             html += `<p class="boek__auteurs">${auteurs}</p>`;
             html += `<span class="boek__uitgave"> ${this.datumOmzetten(boek.uitgave)}</span>`;
             html += `<span class="boek__ean"> ean ${boek.ean}</span>`;
             html += `<span class="boek__paginas"> ${boek.paginas} pagina's. </span>`;
             html += `<span class="boek__taal"> ${boek.taal}</span>`;
-            html += `<div class="boek__prijs"> ${boek.prijs.toLocaleString('nl-NL', {currency: 'EUR', style: 'currency'})}</div>`;
+            html += `<div class="boek__prijs"> ${boek.prijs.toLocaleString('nl-NL', {currency: 'EUR', style: 'currency'})}
+                     <a href="#" class="boek__bestel-knop">bestellen</a></div>`;       
             html += `</section>`;
         });
         uitvoer.innerHTML = html

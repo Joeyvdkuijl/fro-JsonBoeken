@@ -1,6 +1,30 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+#boeken{
+    clear: both;
+}
+.ww{
+    position: absolute;
+    right: 2em;
+}
+.ww__icon{
+    height: 3em;
+}
+.ww__aantal{
+    position: absolute;
+    top: -.3em;
+    left: 3.8em;
+    font-size: .6em;
+    position: absolute;
+    background-color: red;
+    color: white;
+    width: 1em;
+    line-height: 1em;
+    padding: .5em;
+    text-align: center;
+    border-radius: 2em;
+}
 .boek{
     padding: 1em;
     clear: left;
@@ -9,6 +33,9 @@ body{
     float: left;
     padding: 0 3rem 0 0;
     max-width: 300px;
+}
+.boek__info{
+    margin-left: 180px;
 }
 .boek__kopje{
     margin-top: 0;
@@ -22,6 +49,26 @@ body{
 .boek__prijs{
     font-size: 1.5em;
     color: royalblue;
+}
+.boek__bestel-knop{
+    font-size: .8em;
+    float: right;
+    display: block;
+    text-decoration: none;
+    color: red;
+    padding: .4em 2.5em;
+    border: 2px solid red;
+    margin: 1em;
+    margin-right: 1em;
+    border-radius: 1em;
+    background-color: white;
+    font-weight: 700;
+    font-variant: small-caps;
+    letter-spacing: .2em;
+}
+.boek__bestel-knop:hover{
+    color: wheat;
+    background-color: red;
 }
 .besturing__sorteren{
     float: right;
