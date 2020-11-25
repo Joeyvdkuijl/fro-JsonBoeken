@@ -1,12 +1,15 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    overflow-x: hidden;
 }
 #boeken{
     clear: both;
 }
 .ww{
     position: absolute;
-    right: 2em;
+    right: 4em;
+    top: 2em;
+    cursor: pointer;
 }
 .ww__icon{
     height: 3em;
@@ -82,4 +85,23 @@ body{
     .boek:nth-child(4n+2), .boek:nth-child(4n+3){
         background-color: #ccc;
     }
+}
+#haalformulier{
+    /* display: none; */
+}
+#haalformulier:checked ~ .bestelformulier{
+    transform: translate(0vw);
+}
+.bestelformulier {
+    background-color: whitesmoke;
+    position: absolute;
+    width: 90vw;
+    min-height: 90vh;
+    top: 1em;
+    border-radius: 2em;
+    border: solid gray 2px;
+    padding: 2em;
+    box-sizing: border-box;
+    margin: 4vh 4vw;
+    transform: translate(90vw);
 }
