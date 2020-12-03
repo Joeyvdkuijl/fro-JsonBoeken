@@ -42,20 +42,19 @@ const ww = {
         let totaal = 0;
         let totaalBesteld = 0;
         this.bestelling.forEach( boek => {
-            let completeTitel = " ";
+            let completeTitel = "";
             if (boek.voortitel) {
                 completeTitel += boek.voortitel + " ";
             }
             completeTitel += boek.titel;
-    
+    //   
             html += '<tr>';
             html += `<td><img src="${boek.cover}" alt="${completeTitel}" class="bestelformulier__cover"><td>`;
             html += `<td>${completeTitel}</td>`;
-            html += `<td class="bestelformulier__aanal">
-            <i class="fas fa-arrow-down bestelformulier__verlaag" data-role="${boek.ean}></i>
-            ${boek.besteldAantal}
-            <i class="fas fa-arrow-up bestelformulier__verhoog data-role="${boek.ean}></i></td>`;
-            html += `<td>${boek.besteldAantal}</td>`;
+            html += `<td class="bestelformulier__aantal">
+             <i class="fas fa-arrow-down bestelformulier__verlaag" data-role="${boek.ean}" ></i>
+             ${boek.besteldAantal}
+             <i class="fas fa-arrow-up bestelformulier__verhoog" data-role="${boek.ean}" ></i></td>`;
             html += `<td>${boek.prijs.toLocaleString('nl-NL', {currency: 'EUR', style: 'currency'})}</td>`;
             html += `<td><i class="fas fa-trash bestelformulier__trash" data-role="${boek.ean}"></i></td>`;
             html += '<tr>';
@@ -72,16 +71,19 @@ const ww = {
         this.hogerLagerActiveren();
     },
     hogerLagerActiveren() {
-        let hogerKnoppen = document.querySelectorAll('.bestelformulier__verkoop');
+        let hogerKnoppen = document.querySelectorAll('.bestelformulier__verhoog');
         hogerKnoppen.forEach(knop => {
             knop.addEventListener('click', e => {
                 let ophoogID = e.target.getAttribute('data-role');
-                let opTeHogenboek = this.bestelling.filter( boek => boek.ean == ophoogID);
-                opTeHogenboek[0].besteldAantal ++;
+                let opTeHogenBoek = this.bestelling.filter( boek => boek.ean == ophoogID);
+                opTeHogenBoek[0].besteldAantal ++;
                 localStorage.wwBestelling = JSON.stringify(this.bestelling);
                 this.uitvoeren();
             })
         })
+
+        //verlagen 
+
         let lagerKnoppen = document.querySelectorAll('.bestelformulier__verlaag');
         lagerKnoppen.forEach(knop => {
             knop.addEventListener('click', e => {
